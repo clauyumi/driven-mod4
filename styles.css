@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.html, body {
+      margin: 0;
+      height: 100%;
+  }
+
+.topo h1 {
+  color: #ffffff;
+  font-size: 44px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-family: Righteous;
+}
+
+.topo h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 15px;
+  font-family: Righteous;
+}
+
+.topo {
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: red;
+  width: 414px;
+  height: 92px;
+  position: static;
+}
+
+.titulo1 h1 {
+  color: #333333;
+  font-size: 26px;
+  margin-left: 15px;
+  font-family: Righteous;
+}
+
+
+
+.descricao {
+  width: 172px;
+  height: 216px;
+  margin-left: 10px;
+  margin-top: 15px;
+  border-radius: 9px;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: space-between;
+
+}
+
+.descricao img {
+  margin-top: 10px;
+  width: 144px;
+  height: 87px;
+}
+
+.descricao p {
+  color: #333333;
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-family: Righteous;
+}
+
+.descricao h2 {
+  color: #a6a6a6;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-family: Righteous;
+}
+
+.descricao h3 {
+  color: #333333;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-family: Righteous;
+}
+
+
+
+.titulo2 h1 {
+  color: #333333;
+  font-size: 26px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: Righteous;
+}
+.titulo3 h1 {
+  color: #333333;
+  font-size: 26px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: Righteous;
+}
+
+.pratoprincipal {
+  display: flex;
+  width: 414px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.bebidas {
+  display: flex;
+  width: 414px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.sobremesas {
+  display: flex;
+  width: 414px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.final {
+  align-items: center;
+  margin-top: 15px;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 414px;
+  height: 92px;
+  position: static;
+
+}
+
+
+.fechando button {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 15px;
+  border-color: #ffffff;
+  font-family: Righteous;
+  background-color: #cbcbcb;
+  width: 364px;
+  align-items: center;
+  height: 61px;
+  border-radius: 50px;
+  margin: 30px;
+}
+
+
+.selecionar {
+  border-color:  #32B72F;
+  border-width: 5px; 
+  border-radius: 9px;
+  border-style: solid; 
+  height: 210px;
+}
+
+.finalizar button{
+  background-color: #32B72F;
+}
+
+
+.resumopedido p{
+  color: #ffffff;
+  align-items: center;
+  font-size: 22px;
+  margin-top: 20px;
+  font-family: Righteous;
+}
+
+
+.resumoprato p{
+  color: #ffffff;
+  align-items: baseline;
+  font-size: 18px;
+  font-family: Righteous;
+}
+
+
+.resumoprato{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.resumobebida p{
+  color: #ffffff;
+  align-items: baseline;
+  font-size: 18px;
+  font-family: Righteous;
+}
+
+
+.resumobebida{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.resumosobremesa p{
+  color: #ffffff;
+  align-items: baseline;
+  font-size: 18px;
+  font-family: Righteous;
+}
+
+
+.resumosobremesa{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.totalpedido p{
+  color: #ffffff;
+  align-items: baseline;
+  font-size: 18px;
+  font-family: Righteous;
+}
+
+
+.totalpedido{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.resumopedido button {
+    color: #50D074;
+    font-size: 20px;
+    margin-left: 15px;
+    border-color: #ffffff;
+    font-family: Righteous;
+    background-color: #ffffff;
+    width: 329px;
+    align-items: center;
+    height: 52px;
+    border-radius: 50px;
+    margin: 10px;
+  
+}
+
+.resumopedido {
+  width: 377px;
+  position: fixed;
+  height: 353px;
+  border-radius: 9px;
+  background-color:  #50D074;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 999;
+  left: 10%;
+  top: 10%;
+  transform: translate(10%, 10%);
+}
+
+.incluir {
+  background: rgba(0, 0, 0, 0);
+}
+
+.escondido {
+  display:none;
+}
+
+.cancelar p{
+  color: #ffffff;
+  align-items: baseline;
+  font-size: 10px;
+  font-family: Righteous;
+
+}
+
+.cancelar{
+  margin-bottom: 10px;
+}
