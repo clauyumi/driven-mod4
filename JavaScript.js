@@ -79,8 +79,9 @@ function selecionarsobremesa(sobremesa){
 
 
 function fazerpedido(){
-    
-    valor= parseFloat(sobremesapreco.slice(3)) + parseFloat(pratopreco.slice(3)) + parseFloat(bebidapreco.slice(3));
+    if (
+    valor= parseFloat(sobremesapreco.slice(3)) + parseFloat(pratopreco.slice(3)) + parseFloat(bebidapreco.slice(3)))
+    {
     
     document.querySelector(".resumopedido").classList.remove("escondido");
 
@@ -94,22 +95,25 @@ function fazerpedido(){
     document.querySelector(".precob").innerHTML=bebidapreco;
 
     document.querySelector(".somatotal").innerHTML="R$ " + valor + ",00";
- 
+    }
 
 }
 
 function mensagem(){
-    let number = '55511971173766';
-
-
+    let number = '5511971173766';
     let msg = `Olá, gostaria de fazer o pedido:
-               - Prato: $(pratoescolhido)
-               - Bebbida: $(bebidaescolhida)
-               - Sobremesa: $(sobremesaescolhida)
-               Total: R$ $(valor),00`;
+               - Prato: ${pratodesc}
+               - Bebbida: ${bebidadesc}
+               - Sobremesa: ${sobremesadesc}
+               Total: R$ ${valor},00`;
+console.log(msg);
+
 // montar o link (número e texto) (web)
-target= `https://wa.me/${encodeURIComponent(number)}&text=${encodeURIComponent(msg)}`
+
+let target = `https://api.whatsapp.com/send?phone=${encodeURIComponent(number)}&text=${encodeURIComponent(msg)}`
+
 window.location.href = target;
-console.log(target);
 
 }
+
+
